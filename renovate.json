@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "github>loopbackio/cicd//shared-configs/renovate/base"
+  ],
+  "packageRules": [
+    {
+      "matchBaseBranches": ["5.x"],
+      "enabled": true
+    }
+  ]
+}
+
